@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
-import HeaderPortfolio from '../components/HeaderPortfolio';
-import HomePage from '../components/HomePage';
-import PortfoliosPage from '../components/PortfoliosPage';
-import PortfolioPage from '../components/PortfolioPage';
-import ContactPage from '../components/ContactPage';
+import HeaderPortfolio from '../playground/HeaderPortfolio';
+import HomePage from '../playground/HomePage';
+import PortfoliosPage from '../playground/PortfoliosPage';
+import PortfolioPage from '../playground/PortfolioPage';
+import ContactPage from '../playground/ContactPage';
 import ErrorPage from '../components/ErrorPage';
 
 const PortfolioRouter = () => (
